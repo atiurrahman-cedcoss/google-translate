@@ -9,7 +9,7 @@ function googleTranslateElementInit() {
 
   // Append to another element:
   document.body.appendChild(para);
-
+  console.log("window",window)
 }
 
 googleTranslateElementInit()
